@@ -1,28 +1,29 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
 }
+
 .navbar{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 75px;
-    background-color: #01b2ee;
-    color: white;
+display: flex;
+justify-content: space-around;
+align-items: center;
+height: 75px;
+background-color: #01b2ee;
+color: white;
 }
 
 .logo{
-    font-size: 40px;
-    color: white;
-    font-family:cursive;
-   
+font-size: 40px;
+color: white;
+font-family:cursive;
 }
+
 .nav-links{
-    display: flex;
-    justify-content: flex-end;
-    list-style: none;
-    width: 75%;
+display: flex;
+justify-content: flex-end;
+list-style: none;
+width: 75%;
 }
 
 .location,
@@ -30,54 +31,55 @@
 .basket,
 .profile,
 .Subscribe{
-    display: flex;
-    gap: 5px;
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-    padding: 10px 20px;
-    margin:0 10px ;
-    cursor: pointer;
+display: flex;
+gap: 5px;
+text-decoration: none;
+color: white;
+font-size: 20px;
+padding: 10px 20px;
+margin:0 10px ;
+cursor: pointer;
 }
 
 .mobile-menu-icon{
-    display: none;
-    /* font-size: 30px; */
-
+display: none;
 }
 
 @media screen and (max-width:780px){
-    .log{
-        display: flex;
-        position: absolute;
-        top: 15px;
-        left: 35px;
-    }
-    .nav-links{
-        display: none;
-    }
 
-    .nav-links-mobile{
-        position: absolute;
-        display: block;
-        list-style: none;
-        background-color: #01b2ee;
-        left: 0;
-        top: 75px;
-        transition: all 0.5s ease-out;
-        width: 100%;
-    }
+.log{
+display: flex;
+position: absolute;
+top: 15px;
+left: 35px;
+}
+
+.nav-links{
+display: none;
+}
+
+.nav-links-mobile{
+position: absolute;
+display: block;
+list-style: none;
+background-color: #01b2ee;
+left: 0;
+top: 75px;
+transition: all 0.5s ease-out;
+width: 100%;
+}
 .location,
 .fav,
 .basket,
 .profile,
 .Subscribe{
-    text-align: center;
-    color: white;
-    padding:32px;
-    width: 100%;
-    transition: all 0.5s ease;
+text-align: center;
+color: white;
+padding:32px;
+width: 100%;
+transition: all 0.5s ease;
 }
+  
 .mobile-menu-icon{
 display: block;
 position: absolute;

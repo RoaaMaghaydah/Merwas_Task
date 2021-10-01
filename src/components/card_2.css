@@ -1,42 +1,39 @@
 .mainPage{
-    display: grid;
-    grid-template-rows: 10% 80%;
-    margin-bottom: 60px;
+display: grid;
+grid-template-rows: 10% 80%;
+margin-bottom: 60px;
 }
 .card_2Btn{
-    border-radius: 5px;
-    background-color: #01b2ee;
-    color: #fff;
-    border-color: #01b2ee;
-    display: inline-block;
-    vertical-align: middle;
-    line-height: 35px;
-    width:150px;
-    height: 35px;
-    padding-left: 16px;
-    padding-right: 16px;
-    margin-left: 15px;
-    font-size: 14px;
-    font-weight: 300;
-    padding: 0
+border-radius: 5px;
+background-color: #01b2ee;
+color: #fff;
+border-color: #01b2ee;
+display: inline-block;
+vertical-align: middle;
+line-height: 35px;
+width:150px;
+height: 35px;
+padding-left: 16px;padding-right: 16px;margin-left: 15px;font-size: 14px;font-weight: 300;padding: 0
 }
 .card_2Header{
-    display: flex;
-    justify-content: start;
-    margin-left: 40px;
+ display: flex;
+ justify-content: start;
+ margin-left: 40px;
 }
 
 .headerText{
-    font-size: 32px;
-    font-weight: 700;
-    display: inline-block;
-    vertical-align: middle;
-    color: #4f5864;
-    cursor: pointer;
+font-size: 32px;
+font-weight: 700;
+display: inline-block;
+vertical-align: middle;
+color: #4f5864;
+cursor: pointer;
 }
+
 .headerText:hover{
 color: #01b2ee;
 }
+
 .card_2Page{
 display:grid;
 margin: 0px 50px 60px 40px;
@@ -45,38 +42,37 @@ gap:40px;
 
 }
 
-.card_2Image{
-    /* width:320px;
-    height: 220px; */
-    /* height: 360px; */
-    border-top-right-radius: 5px;
-    border-top-left-radius: 5px;
-    width: 95%;
-    font-size: 18px;
-    line-height: 1.3;
-    font-weight: 500;
-    margin-bottom: 0;
-    color: #fff;
-    text-align: center;
-    border-bottom: #dce3ed 2px solid;
+.card_2Image{ 
+border-top-right-radius: 5px;
+border-top-left-radius: 5px;
+width: 95%;
+font-size: 18px;
+line-height: 1.3;
+font-weight: 500;
+margin-bottom: 0;
+color: #fff;
+text-align: center;
+border-bottom: #dce3ed 2px solid;
 }
-.card_col{
-    display: grid;
-    grid-template-rows: 80% 20% 20%;
-   margin-top: 50px;
 
+.card_col{
+display: grid;
+grid-template-rows: 80% 20% 20%;
+margin-top: 50px;
 }
+
 .card_2Title{
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    font-size: 19px;
-    font-weight: 500;
-    color: #4f5864;
-    padding: 3px;
-    margin-left: 5px;
-    line-height: 1.4
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+font-size: 19px;
+font-weight: 500;
+color: #4f5864;
+padding: 3px;
+margin-left: 5px;
+line-height: 1.4
 }
+
 .card_2Info{
 display:flex;
 justify-content: space-between;
@@ -87,92 +83,86 @@ border-bottom-left-radius: 5px;
 border-bottom: #dce3ed 2px solid;
 }
 .price2{
-    margin-right:10px;  
-    font-weight: 500;
-    font-size: 30px;
-    color:#01b2ee;
-    }
+margin-right:10px;  
+font-weight: 500;
+font-size: 30px;
+color:#01b2ee;
+}
     
-    .wig2{
-        font-size: 20px;
-        color: #92a2ad;
-        margin-left: 10px;
-    }
+.wig2{
+font-size: 20px;
+color: #92a2ad;
+margin-left: 10px;
+}
 
-    .container2 {
-        position: relative;
-        width: 95%;
-        /* margin-bottom: 30px; */
-      }
+.container2 {
+position: relative;
+width: 95%;
+}
     
-      .overlay2 {
-        position: absolute;
-        top: 0px;
-        bottom: 0px;
-        left: 0px;
-        right: 0px;
-        height:203px;
-        width: 95%;
-        opacity: 0;
-        transition: .5s ease;
-        background-color:#01b2ee;;
-        cursor: pointer;
-        border-radius: 5px;
-        
-      }
+.overlay2 {
+position: absolute;
+top: 0px;
+bottom: 0px;
+left: 0px;
+right: 0px;
+height:203px;
+width: 95%;
+opacity: 0;
+transition: .5s ease;
+background-color:#01b2ee;;
+cursor: pointer;
+border-radius: 5px;
+}
+ 
+.container2:hover .overlay2 {
+opacity: 0.7; 
+}
       
-      .container2:hover .overlay2 {
-        opacity: 0.7;
-        
-      }
-      
-      .Card_2text {
-        color: white;
-        font-size: 20px;
-        position: absolute;
-        top: 40%;
-        left: 50%;
-        display: flex;
-        -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        text-align: center;
-      }
+.Card_2text {
+color: white;
+font-size: 20px;
+position: absolute;
+top: 40%;
+left: 50%;
+display: flex;
+-webkit-transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+text-align: center;
+}
 
-    @media screen and (max-width:650px){
-        .card_2Page{
-            display:grid;
-            margin: 0px 50px 60px 40px;
-            grid-template-columns: 45% 45%;
-            gap:40px;
-            
-            }
-            .overlay2 {
-                position: absolute;
-                top: 0px;
-                bottom: 0px;
-                left: 0px;
-                right: 0px;
-                height:126px;
-                width: 95%;
-                opacity: 0;
-                transition: .5s ease;
-                background-color:#01b2ee;;
-                cursor: pointer;
-                border-radius: 5px;
-                
-              }
+@media screen and (max-width:650px){
+.card_2Page{
+display:grid;
+margin: 0px 50px 60px 40px;
+grid-template-columns: 45% 45%;
+gap:40px;
+}
+.overlay2 {
+position: absolute;
+top: 0px;
+bottom: 0px;
+left: 0px;
+right: 0px;
+height:126px;
+width: 95%;
+opacity: 0;
+transition: .5s ease;
+background-color:#01b2ee;;
+cursor: pointer;
+border-radius: 5px;
+}
        
-              .Card_2text {
-                color: white;
-                font-size: 13px;
-                position: absolute;
-                top: 40%;
-                left: 50%;
-                display: flex;
-                -webkit-transform: translate(-50%, -50%);
-                -ms-transform: translate(-50%, -50%);
-                transform: translate(-50%, -50%);
-                text-align: center;
-              }
+.Card_2text {
+color: white;
+font-size: 13px;
+position: absolute;
+top: 40%;
+left: 50%;
+display: flex;
+-webkit-transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+text-align: cent}
     }

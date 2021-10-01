@@ -1,17 +1,20 @@
 .homeImage{
-    margin: 20px;
+margin: 20px;
 }
+
 .image{
-    height: auto;
-    width: 100%;
+height: auto;
+width: 100%;
 }
+
 .text{
-    padding: 20px 0px 0px 0px;
-    text-align: center;
-    font-weight: normal;
-    font-size: 15px;
-    font-family: MuseoSans,BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+padding: 20px 0px 0px 0px;
+text-align: center;
+font-weight: normal;
+font-size: 15px;
+font-family: MuseoSans,BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
+
 .text span{
-    font-weight: bold;
+font-weight: bold;
 }
