@@ -46,12 +46,11 @@
     display: grid;
     grid-template-columns: 26% 37% 37%; 
     
-
 }
 .col_1{
     display: grid;
     grid-template-rows: 60% 20% 20%;
-margin-top: 50px;
+   margin-top: 50px;
 /* border-radius: 5px; */
    
 }
