@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.searchBar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+}
+.searchType{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    width: 100%;
+   
+}
+.sear{
+    text-decoration: none;
+    font-family: MuseoSans,BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #4f5864;
+    font-size: 19px;
+    padding: 10px 20px;
+    margin:0 10px ;
+    cursor: pointer;
+}
+.sear:hover{
+    color:#01b2ee;
+}
+.searchInput{
+    height: 40px;
+    margin-right: 20px;
+    padding: 0 15px 0 40px;
+    font-size: 15px;
+    color: #4f5864;
+    background-color: #fff;
+    box-shadow: 0 0 8px 0 rgb(79 88 100 / 10%);
+    border-radius: 5px;
+    border: 1px solid #dce3ed;
+    width: 75%;
+    
+}
+
+@media screen and (max-width:1070px){
+    .searchBar{
+        display: none;
+    }
+}
