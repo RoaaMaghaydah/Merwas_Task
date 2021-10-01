@@ -48,7 +48,7 @@ const Card_2 = () => {
                         <div className="card_col">
                             <div class="container2">
                                 <img className="card_2Image" src={elemant.image} />
-                                <div class="overlay" >
+                                <div class="overlay2" >
                                     <div class="Card_2text">{elemant.text}</div>
                                 </div>
                             </div>
