@@ -30,16 +30,24 @@ width: 75%;
 .fav,
 .basket,
 .profile,
-.Subscribe{
+.Subscribe
+{
 display: flex;
 gap: 5px;
 text-decoration: none;
 color: white;
 font-size: 20px;
-padding: 10px 20px;
+padding: 15px 15px;
 margin:0 10px ;
 cursor: pointer;
 }
+.powered-by-logo{
+    padding: 5px;
+}
+.powered-by-logo img{
+   width: 100px;
+}
+
 
 .mobile-menu-icon{
 display: none;

@@ -9,13 +9,13 @@ const Navbar = () => {
             <nav className="navbar">
                 <h3 className="logo">GrabOne</h3>
                 <ul className={isMobile ? "nav-links-mobile" : "nav-links"} onClick={() => { setIsMobile(false) }}>
-                   
+
                     <Link className="location"> <li><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
                         <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z" />
                         <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
                     </svg>
                     </li>
-                    <span> Location </span>
+                        <span> Location </span>
                     </Link>
 
                     <Link className="fav">  <li><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
@@ -34,10 +34,12 @@ const Navbar = () => {
                     <Link className="Subscribe">  <li><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
                         <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z" />
                     </svg>   </li>
-                    <span> Subscribe</span>
+                        <span> Subscribe</span>
                     </Link>
-
-                </ul>
+                    <li class="powered-by-logo">
+                        <a href="https://www.nzme.co.nz" target="_blank" rel="noopener"><img src="//new-cdn.grabone.co.nz/static/img/icon/powered_by_nzme_short.22da364cd455.png"/></a>
+                    </li>              
+                      </ul>
                 <button className="mobile-menu-icon" onClick={() => { setIsMobile(!isMobile) }}>
                     {isMobile ? (<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
                         <path d="M1.293 1.293a1 1 0 0 1 1.414 0L8 6.586l5.293-5.293a1 1 0 1 1 1.414 1.414L9.414 8l5.293 5.293a1 1 0 0 1-1.414 1.414L8 9.414l-5.293 5.293a1 1 0 0 1-1.414-1.414L6.586 8 1.293 2.707a1 1 0 0 1 0-1.414z" />
@@ -50,4 +52,6 @@ const Navbar = () => {
     )
 
 }
+
+
 export default Navbar
